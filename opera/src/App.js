@@ -5,7 +5,7 @@ import {useEffect} from 'react';
 import {useStateProvider} from './utils/StateProvider';
 import {reducerCases} from './utils/Constants';
 import Spotify from './components/Spotify';
-
+import './components/spotify.css';
 function App() {
   // const[{token},dispatch] = useStateProvider();
   const [{ token }, dispatch] = useStateProvider();
@@ -18,7 +18,7 @@ function App() {
     } 
   },[token,dispatch]);
   return (
-    <div>
+    <div className="body">
     {
       token?<Spotify />:<Login/>
     }

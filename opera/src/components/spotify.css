@@ -1,0 +1,14 @@
+.body{
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;
+
+    height:100vh;
+    color:white;
+}
+.body button{
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+
+}

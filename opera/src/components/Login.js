@@ -23,8 +23,12 @@ function Login(){
                     )}&response_type=token&show_dialog = true`;
     }
     return(
-        <Container>Login
+        <Container>
+        <div className="body">
+        <h1>Login to Spotify</h1>
+        <br></br>
         <button onClick={handleClick}>Connect spotify</button>
+        </div>
         </Container>
         
     );
