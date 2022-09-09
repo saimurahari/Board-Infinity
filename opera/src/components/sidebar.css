@@ -1,0 +1,38 @@
+.options{
+    background-color: black;
+    color:white;
+    width: 250px;
+    height:100vh;
+    position:fixed;
+    top:0;
+    list-style: none;
+}   
+.side-nav{
+    margin-left:20px
+}
+.logo{
+    margin-top: 50px;
+}
+
+.options-side{
+    margin-top: 100px;
+    
+   padding-right:100px;
+    display:grid;
+    text-align: right;
+}
+.options-side span{
+    padding:10px;
+    
+}
+.options-side a{
+    text-decoration: none;
+    color:white;
+}
+.options-side a:hover{
+    color: #1D8954;
+}
+.icon{
+    align-items:left;
+    color:white;
+}

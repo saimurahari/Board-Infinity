@@ -4,7 +4,7 @@ import Login from './components/Login';
 import {useEffect} from 'react';
 import {useStateProvider} from './utils/StateProvider';
 import {reducerCases} from './utils/Constants';
-import Spotify from './components/Spotify.jsx';
+import Spotify from './components/Spotify';
 
 function App() {
   // const[{token},dispatch] = useStateProvider();

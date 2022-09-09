@@ -1,0 +1,14 @@
+.navhome{
+    height:50px;
+    width:1310px;
+    background-color: #202020;
+    border-bottom:2px solid red;
+
+    border-bottom-color: black;
+}
+.profile{
+    float: right;
+    color:white;
+    margin-right: 50px;
+    margin-top:10px;
+}
